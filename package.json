@@ -1,0 +1,44 @@
+{
+  "name": "mcp-server-tempmail",
+  "version": "1.0.0",
+  "description": "MCP server for temporary email management using ChatTempMail API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "temp-mail",
+    "email",
+    "temporary-email",
+    "chat-tempmail",
+    "claude",
+    "cursor",
+    "ai-tools"
+  ],
+  "author": "Selenium39",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "bin": {
+    "mcp-server-tempmail": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Selenium39/mcp-server-tempmail.git"
+  },
+  "homepage": "https://github.com/Selenium39/mcp-server-tempmail",
+  "bugs": {
+    "url": "https://github.com/Selenium39/mcp-server-tempmail/issues"
+  }
+}
