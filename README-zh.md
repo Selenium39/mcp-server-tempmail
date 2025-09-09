@@ -1,6 +1,6 @@
 # MCP Server - 临时邮箱
 
-基于 ChatTempMail API 的 MCP (Model Context Protocol) 服务器，提供临时邮箱管理功能。
+基于 [ChatTempMail](https://chat-tempmail.com/zh) API 的 MCP (Model Context Protocol) 服务器，提供临时邮箱管理功能。
 
 ## 功能特性
 
@@ -23,7 +23,7 @@
 
 ### 1. 获取API密钥
 
-1. 访问 [chat-tempmail.com](https://chat-tempmail.com)
+1. 访问 [chat-tempmail.com/zh](https://chat-tempmail.com/zh)
 2. 注册账户并登录
 3. 在个人资料页面创建API密钥
 
