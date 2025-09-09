@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.Selenium39/mcp-server-tempmail",
+  "description": "MCP server for temporary email management using ChatTempMail API",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/Selenium39/mcp-server-tempmail",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "registry_base_url": "https://registry.npmjs.org",
+      "identifier": "mcp-server-tempmail",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environment_variables": [
+        {
+          "description": "API key for ChatTempMail service",
+          "is_required": true,
+          "format": "string",
+          "is_secret": true,
+          "name": "TEMPMAIL_API_KEY"
+        },
+        {
+          "description": "Base URL for ChatTempMail API (optional, defaults to https://chat-tempmail.com)",
+          "is_required": false,
+          "format": "string",
+          "is_secret": false,
+          "name": "TEMPMAIL_BASE_URL"
+        }
+      ]
+    }
+  ]
+}

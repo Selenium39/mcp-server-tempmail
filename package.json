@@ -1,7 +1,8 @@
 {
   "name": "mcp-server-tempmail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for temporary email management using ChatTempMail API",
+  "mcpName": "io.github.Selenium39/mcp-server-tempmail",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",

@@ -81,3 +81,7 @@ temp/
 
 # Test files
 test-output/
+
+# MCP Registry tokens
+.mcpregistry_github_token
+.mcpregistry_registry_token
